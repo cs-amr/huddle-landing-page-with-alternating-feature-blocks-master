@@ -134,3 +134,44 @@ html {
     color: var(--p-color);
     font-family: 'Open sans';
 }
+footer {
+    padding: 100px;
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    font-family: 'Open sans';
+}
+footer .columns {
+    display: flex;
+    justify-content: space-between;
+}
+footer .col:first-child img {
+    margin-right: 1rem;
+    
+}
+footer .col:first-child p {
+    margin-top: 1rem;
+}
+footer .col {
+    width: 25%;
+}
+footer .col h5 {
+    margin-bottom: 1rem;
+}
+#img {
+    filter: invert(1);
+    filter: brightness(0);
+    -webkit-filter: invert(1);
+} 
+footer .container .col:last-child i{
+    border: 2px solid #ffffff ;
+    padding: 5px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    cursor: pointer;
+}
+footer .container .col:last-child i:first-child {
+    padding:7px 10px ;
+}
